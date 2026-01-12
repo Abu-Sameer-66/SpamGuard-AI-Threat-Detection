@@ -1,108 +1,47 @@
-# 🛡️ SpamGuard  
-## AI-Powered SMS Phishing & Spam Detection System
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,0f9b0f&height=250&section=header&text=SpamGuard%20Defense%20System&fontSize=40&fontColor=00FF00&animation=fadeIn&fontAlignY=35&desc=AI-Powered%20SMS%20Threat%20Neutralization%20Engine&descAlignY=60&descAlign=50" width="100%"/>
+</div>
 
-> **SpamGuard** is a production-ready, high-precision **Natural Language Processing (NLP) security engine** designed to detect and neutralize **SMS phishing (smishing) and spam attacks in real time**.  
->  
-> Built with **probabilistic machine learning** and **statistical text modeling**, SpamGuard achieves **98%+ classification accuracy** while prioritizing **zero false positives**, ensuring user trust and message integrity.
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Scanning+Incoming+SMS+Traffic...;Threat+Pattern+Detected...;Applying+Naive+Bayes+Filter...;THREAT+NEUTRALIZED."/>
+</div>
 
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-success)]()
-[![License](https://img.shields.io/badge/License-MIT-blue)]()
-[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB)]()
-[![ML](https://img.shields.io/badge/Machine%20Learning-NLP-orange)]()
+<br/>
 
----
-
-## 🚨 Problem Statement: The SMS Threat Landscape
-
-SMS-based fraud and phishing attacks cost the global economy **billions of dollars annually**.  
-Conventional rule-based or keyword-matching filters fail against:
-
-- Linguistic obfuscation  
-- Context-aware phishing attempts  
-- Evolving attacker vocabulary  
-
-**SpamGuard addresses this gap** by learning the *semantic intent* of messages rather than relying on static keyword lists.
-
----
-
-## 🧠 Solution Overview
-
-SpamGuard leverages **classical NLP + probabilistic ML** to deliver:
-
-- ⚡ **Real-time detection**
-- 🎯 **High-precision filtering (Zero false positives)**
-- 🔐 **Security-first design**
-- 📈 **Scalable and deployable architecture**
-
-Suitable for:
-- Telecom platforms  
-- SMS gateways  
-- FinTech & Banking alert systems  
-- Cybersecurity research pipelines  
+<div align="center">
+  <a href="https://github.com/Abu-Sameer-66/SpamGuard-AI-Threat-Detection">
+    <img src="https://img.shields.io/badge/Security-Grade_A-00FF00?style=for-the-badge&logo=shield&logoColor=black"/>
+  </a>
+  <a href="https://github.com/Abu-Sameer-66/SpamGuard-AI-Threat-Detection">
+    <img src="https://img.shields.io/badge/Python-3.9+-black?style=for-the-badge&logo=python&logoColor=00FF00"/>
+  </a>
+  <a href="https://github.com/Abu-Sameer-66/SpamGuard-AI-Threat-Detection">
+    <img src="https://img.shields.io/badge/Precision-100%25-00FF00?style=for-the-badge"/>
+  </a>
+   <a href="https://github.com/Abu-Sameer-66/SpamGuard-AI-Threat-Detection">
+    <img src="https://img.shields.io/badge/False_Positives-ZERO-black?style=for-the-badge&color=black"/>
+  </a>
+</div>
 
 ---
 
-## ⚙️ System Architecture
+## 🛡️ Mission Briefing
+> **SpamGuard** is a military-grade **Natural Language Processing (NLP) security engine** designed to detect and neutralize SMS phishing (smishing) attacks in real-time.
 
-SpamGuard follows a **modular, multi-stage NLP pipeline**:
-
-### 1️⃣ Text Preprocessing
-- Noise removal (punctuation, symbols)
-- Tokenization
-- Stopword elimination  
-*(NLTK-based pipeline)*
-
-### 2️⃣ Feature Engineering
-- **TF-IDF Vectorization**
-- Context-weighted term importance
-- Sparse high-dimensional text representation
-
-### 3️⃣ Probabilistic Classification
-- **Multinomial Naive Bayes**
-- Optimized for speed, interpretability, and text-based probability modeling
+Built on **probabilistic machine learning**, it prioritizes a **Zero-Trust Architecture**—meaning it catches threats without ever blocking a legitimate message (100% Precision).
 
 ---
 
-## 📄 Technical Documentation
+## ⚙️ Defense Architecture
+*Visualizing the threat neutralization pipeline:*
 
-A detailed explanation of:
-- Model design
-- Feature selection
-- Evaluation methodology
-- Future improvements  
-
-📘 **[View Technical Architecture Report (PDF)](./SpamGuard_Technical_Architecture.pdf)**
-
----
-
-## 🛠️ Technology Stack
-
-| Layer | Technology | Purpose |
-|------|-----------|--------|
-| Language | Python | Core system implementation |
-| NLP | NLTK, Scikit-Learn | Text preprocessing & modeling |
-| ML Model | Multinomial Naive Bayes | Probabilistic classification |
-| Data Handling | Pandas | Dataset processing |
-| Evaluation | Matplotlib | Confusion matrix & metrics |
-
----
-
-## 📊 Model Performance
-
-| Metric | Value | Interpretation |
-|------|-------|---------------|
-| Accuracy | **98.4%** | Overall classification reliability |
-| Precision | **100%** | Zero false positives (No legitimate SMS blocked) |
-| Recall | **94%** | High phishing capture rate |
-
-> **Design Decision:**  
-> Precision is deliberately prioritized over recall to preserve **user trust**, a critical requirement in real-world SMS filtering systems.
-
----
-
-## 🚀 Installation & Usage
-
-### Clone the Repository
-```bash
-git clone https://github.com/Abu-Sameer-66/SpamGuard-AI-Threat-Detection.git
-cd SpamGuard-AI-Threat-Detection
+```mermaid
+graph LR
+    A[📲 Incoming SMS] -->|Raw Text| B(Noise Reduction Layer)
+    B -->|Tokenization| C{Feature Extraction}
+    C -->|TF-IDF Vector| D[Probabilistic Engine]
+    D -->|Calculate Odds| E{Threat Analysis}
+    E -- 'Spam' --> F[🚫 BLOCKED]
+    E -- 'Ham' --> G[✅ DELIVERED]
+    style F fill:#000,stroke:#00FF00,stroke-width:2px,color:#00FF00
+    style D fill:#00FF00,stroke:#000,stroke-width:2px,color:#000
