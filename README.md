@@ -1,25 +1,25 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,0f9b0f&height=250&section=header&text=SpamGuard%20Defense%20System&fontSize=40&fontColor=00FF00&animation=fadeIn&fontAlignY=35&desc=AI-Powered%20SMS%20Threat%20Neutralization%20Engine&descAlignY=60&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=240b36,c31432&height=250&section=header&text=SpamGuard%20Defense%20System&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI-Powered%20SMS%20Threat%20Neutralization%20Engine&descAlignY=60&descAlign=50" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Scanning+Incoming+SMS+Traffic...;Threat+Pattern+Detected...;Applying+Naive+Bayes+Filter...;THREAT+NEUTRALIZED."/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=F05F57&center=true&vCenter=true&width=600&lines=Scanning+Incoming+SMS+Traffic...;Threat+Pattern+Detected...;Applying+Naive+Bayes+Filter...;THREAT+NEUTRALIZED."/>
 </div>
 
 <br/>
 
 <div align="center">
   <a href="https://github.com/Abu-Sameer-66/SpamGuard-AI-Threat-Detection">
-    <img src="https://img.shields.io/badge/Security-Grade_A-00FF00?style=for-the-badge&logo=shield&logoColor=black"/>
+    <img src="https://img.shields.io/badge/Security-Grade_A-c31432?style=for-the-badge&logo=shield&logoColor=white"/>
   </a>
   <a href="https://github.com/Abu-Sameer-66/SpamGuard-AI-Threat-Detection">
-    <img src="https://img.shields.io/badge/Python-3.9+-black?style=for-the-badge&logo=python&logoColor=00FF00"/>
+    <img src="https://img.shields.io/badge/Python-3.9+-240b36?style=for-the-badge&logo=python&logoColor=white"/>
   </a>
   <a href="https://github.com/Abu-Sameer-66/SpamGuard-AI-Threat-Detection">
-    <img src="https://img.shields.io/badge/Precision-100%25-00FF00?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Precision-100%25-success?style=for-the-badge"/>
   </a>
    <a href="https://github.com/Abu-Sameer-66/SpamGuard-AI-Threat-Detection">
-    <img src="https://img.shields.io/badge/False_Positives-ZERO-black?style=for-the-badge&color=black"/>
+    <img src="https://img.shields.io/badge/False_Positives-ZERO-000000?style=for-the-badge&color=black"/>
   </a>
 </div>
 
@@ -43,5 +43,5 @@ graph LR
     D -->|Calculate Odds| E{Threat Analysis}
     E -- 'Spam' --> F[🚫 BLOCKED]
     E -- 'Ham' --> G[✅ DELIVERED]
-    style F fill:#000,stroke:#00FF00,stroke-width:2px,color:#00FF00
-    style D fill:#00FF00,stroke:#000,stroke-width:2px,color:#000
+    style F fill:#c31432,stroke:#240b36,stroke-width:2px,color:#fff
+    style D fill:#240b36,stroke:#c31432,stroke-width:2px,color:#fff
