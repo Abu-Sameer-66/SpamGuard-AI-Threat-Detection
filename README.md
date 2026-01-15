@@ -5,7 +5,7 @@
 
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=F05F57&center=true&vCenter=true&width=600&lines=Scanning+Incoming+SMS+Traffic...;Threat+Pattern+Detected...;Applying+Naive+Bayes+Filter...;THREAT+NEUTRALIZED."/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=D1E0DD&center=true&vCenter=true&width=600&lines=Scanning+Incoming+SMS+Traffic...;Threat+Pattern+Detected...;Applying+Naive+Bayes+Filter...;THREAT+NEUTRALIZED."/>
 </div>
 
 <br/>
