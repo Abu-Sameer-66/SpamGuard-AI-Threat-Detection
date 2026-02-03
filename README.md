@@ -2,6 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&ColorList=0f0f0f,A57891,d4af37,8b8000,A3A37B&height=250&section=header&text=SpamGuard%20Defense%20System&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI-Powered%20SMS%20Threat%20Neutralization%20Engine&descAlignY=60&descAlign=50" width="100%"/>
 </div>
 
+
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=D1E0DD&center=true&vCenter=true&width=600&lines=Scanning+Incoming+SMS+Traffic...;Threat+Pattern+Detected...;Applying+Naive+Bayes+Filter...;THREAT+NEUTRALIZED."/>
 </div>
